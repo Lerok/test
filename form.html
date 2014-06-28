@@ -1,0 +1,57 @@
+<!DOCTYPE html> 
+<html>
+<head>
+  <title>Form</title>
+</head>
+<body>
+  <h1 align="center"> Nothing personal. Just questions </h1>
+  <form autocomplete="on" name="Nothing personal. Just questions">
+  <fieldset align="center">
+    <legend align="center"> <b>Registration</b></legend>
+    <label for="login"> Login:</label> 
+    <input type="text" id="login" required size="20" align="center"> <br>
+    <label for="date"> How old are you?</label>
+    <input type="date" id="date" required align="center"><br> 
+    <label for="pas">Password:</label>
+    <input required type="password" id="pas" pattern="{5,}" align="center"> <br>
+    <label for="repas"> Repeat the password, please:</label> 
+    <input required type="password" id="repas" align="center">
+    <input type="reset" value="reset">
+  </fieldset>  
+  <fieldset align="center">
+    <legend><b>A little personal information</b></legend>
+    <p> <b>Your gender</b><br> <input type="radio" name="man" value="I'm a man">
+      <label for="man">I'm a man</label><br>
+      <input type="radio" name="woman" value="I'm a woman">
+      <label for="woman">I'm a woman</label></p>
+    <p><b>Contacts</b><br> 
+      <label for="mail">E-mail</label>
+      <input type="email" id="mail" size="40"><br>
+      <label for="mobile">Mobile phone</label>
+      <input type="tel" id="mobile" size="11"><br>
+      <label for="web">Your web-cite</label>
+      <input type="url" id="web"><br></p>
+    <p><b>Photo</b><br>
+    <input type="file" id="foto" accept="image/jpeg,image/png,image/jpg,image/gif" formtarget="_self"></p>
+  </fieldset> 
+  <input type="reset" value="reset">
+  <input type="submit" value="submit">
+  </form> 
+  <form> 
+  <fieldset align="center"> 
+    <legend> <b> Now i want you to answer a few simple questions</b></legend> <br>
+    <p align="center"><b>What is the worst form of life?</b><br> 
+    <input type="checkbox" name="hate" value="human">Human. I hate it<br>
+    <input type="checkbox" name="hate" value="shrimp-mantis">Shrimp-mantis. Killers must be killed.<br>
+    <input type="checkbox" name="hate" value="all">Everything that moves.</p>
+    <p aling="center"><b>If you could move in time, what would you choose - the past or the future?<br>
+    <select> 
+      <option disabled value="no choise">no choise</option>
+      <option value="nothing">I want to stay in present</option>
+      <option value="past">I want to see, how people lived in the past</option>
+      <option value="future">I want to see, who was right - H.G.Wells or Isaac Asimov. Future</option>
+    </select>
+  </fieldset> 
+  <input type="submit" value="submit"> </form>
+ </body>
+ </html>
