@@ -46,3 +46,15 @@
   border: 1px solid #469258;
   background: linear-gradient(to top, #469258 , #6FB880 97% , #DEF4E3 99%); 
 }
+
+.sprite {
+	background: url('imgs/sprite.png') -314px -92px;
+	width: 77px;
+	height: 44px;
+}
+
+.sprite:active {
+	background: url('imgs/sprite.png')-314px -220px;
+	width: 63px;
+	height: 68px;
+}
