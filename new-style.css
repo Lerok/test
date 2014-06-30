@@ -9,9 +9,8 @@
   color: #FFFFFF;
   text-decoration: none;
   display: inline-block;
-  /*border: 1px solid;*/
   border-radius: 4px;
- /* padding: 3px 27px;*/
+ padding: 3px 27px;
   font: caption;
  /* background: linear-gradient(to top, #303030 , #6A6A6A 97% , #CBCBCB 99%);*/
 }
@@ -30,9 +29,8 @@
 }
 
 .dangerbutton {
-border: 1px solid #FC5555;
-background: linear-gradient(to top, #FC5555 , #FD8C8C 97% , #FFDCDC 99%);
-padding: 3px 23px;
+  border: 1px solid #FC5555;
+  background: linear-gradient(to top, #FC5555 , #FD8C8C 97% , #FFDCDC 99%);
 }
 
 .dangerbutton:hover {
@@ -41,12 +39,11 @@ padding: 3px 23px;
 }
 
 .successbutton {
-border: 1px solid #329739;
-background: linear-gradient(to top, #329739 , #62BC68 97% , #DBF7DD 99%);
-padding: 3px 21px;
+  border: 1px solid #329739;
+  background: linear-gradient(to top, #329739 , #62BC68 97% , #DBF7DD 99%);
 }
 
 .successbutton:hover {
-border: 1px solid #469258;
-background: linesr-gradient(to top, #469258 , #6FB880 97% , #DEF4E3 99%); 
+  border: 1px solid #469258;
+  background: linear-gradient(to top, #469258 , #6FB880 97% , #DEF4E3 99%); 
 }
