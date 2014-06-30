@@ -8,15 +8,17 @@
   color: #FFFFFF;
   text-decoration: none;
   display: inline-block;
-  border: 2px solid black;
+  border: 1px solid black;
   border-radius: 4px;
   padding: 3px 27px;
   background-color: black;
   font: caption;
+  background: linear-gradient(to top, #000000 50% , #6C6C6C);
 }
 .blackbutton:hover {
   /*color: #F4A460;
   text-decoration: underline;*/
   background-color: #353535;
   border: 2px solid #353535;
+  background: linear-gradient(to top, )
 }
