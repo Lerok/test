@@ -10,7 +10,7 @@
   text-decoration: none;
   display: inline-block;
   border-radius: 4px;
- padding: 3px 27px;
+  padding: 3px 27px;
   font: caption;
  /* background: linear-gradient(to top, #303030 , #6A6A6A 97% , #CBCBCB 99%);*/
 }
@@ -23,7 +23,6 @@
 }
 
 .blackbutton:hover {
-  /*background-color: #353535;*/
   border: 1px solid #353535;
   background: linear-gradient(to top, #353535 , #7A7A7A 97% , #DBDBDB 99%);
 }
