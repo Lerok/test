@@ -4,17 +4,19 @@
   text-align: center;
   width: 50%;
 }
-.picture {
+.blackbutton {
   color: #FFFFFF;
   text-decoration: none;
-  display: block;
+  display: inline-block;
   border: 2px solid black;
   border-radius: 4px;
-  padding: 3px;
+  padding: 3px 27px;
   background-color: black;
   font: caption;
 }
-.picture:hover {
-  color: #F4A460;
-  text-decoration: underline;
+.blackbutton:hover {
+  /*color: #F4A460;
+  text-decoration: underline;*/
+  background-color: #353535;
+  border: 2px solid #353535;
 }
