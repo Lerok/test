@@ -48,13 +48,13 @@
 }
 
 .sprite {
-	background: url('imgs/sprite.png') -314px -92px;
+	background: url('sprite.png') no-repeat -314px -92px;
 	width: 77px;
 	height: 44px;
 }
 
 .sprite:active {
-	background: url('imgs/sprite.png')-314px -220px;
+	background: url('sprite.png') no-repeat -314px -220px;
 	width: 63px;
 	height: 68px;
 }
