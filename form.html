@@ -9,13 +9,13 @@
   <fieldset align="center">
     <legend align="center"> <b>Registration</b></legend>
     <label for="login"> Login:</label> 
-    <input type="text" id="login" required size="20" align="center"> <br>
+    <input type="text" name="login" id="login" required size="20" align="center"> <br>
     <label for="date"> How old are you?</label>
-    <input type="date" id="date" required align="center"><br> 
+    <input type="date" name="date" id="date" required align="center"><br> 
     <label for="pas">Password:</label>
-    <input required type="password" id="pas" pattern="{5,}" align="center"> <br>
+    <input required type="password" name="pas" id="pas" pattern="{5,}" align="center"> <br>
     <label for="repas"> Repeat the password, please:</label> 
-    <input required type="password" id="repas" align="center">
+    <input required type="password" name="repas" id="repas" align="center">
     <input type="reset" value="reset">
   </fieldset>  
   <fieldset align="center">
@@ -26,11 +26,11 @@
       <label for="woman">I'm a woman</label></p>
     <p><b>Contacts</b><br> 
       <label for="mail">E-mail</label>
-      <input type="email" id="mail" size="40"><br>
+      <input type="email" id="mail" name="mail" size="40"><br>
       <label for="mobile">Mobile phone</label>
-      <input type="tel" id="mobile" size="11"><br>
+      <input type="tel" id="mobile" name="mobile" size="11"><br>
       <label for="web">Your web-cite</label>
-      <input type="url" id="web"><br></p>
+      <input type="url" id="web" name="web"><br></p>
     <p><b>Photo</b><br>
     <input type="file" id="foto" accept="image/jpeg,image/png,image/jpg,image/gif" formtarget="_self"></p>
   </fieldset> 
@@ -50,7 +50,7 @@
       <option value="nothing">I want to stay in present</option>
       <option value="past">I want to see, how people lived in the past</option>
       <option value="future">I want to see, who was right - H.G.Wells or Isaac Asimov. Future</option>
-    </select>
+    </select> </p> 
   </fieldset> 
   <input type="submit" value="submit"> </form>
  </body>
