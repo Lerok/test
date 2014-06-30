@@ -4,3 +4,11 @@
   text-align: center;
   width: 50%;
    }
+.picture {
+  color: #FF4949;
+  text-decoration: none;
+  }
+.picture:hover{
+  color: #F4A460;
+  text-decoration: underline;
+  }
