@@ -4,20 +4,40 @@
   text-align: center;
   width: 50%;
 }
-.blackbutton {
+
+.button {
   color: #FFFFFF;
   text-decoration: none;
   display: inline-block;
+  /*border: 1px solid;*/
+  border-radius: 4px;
+  padding: 3px 27px;
+  font: caption;
+ /* background: linear-gradient(to top, #303030 , #6A6A6A 97% , #CBCBCB 99%);*/
+}
+
+.blackbutton {
   border: 1px solid black;
   border-radius: 4px;
   padding: 3px 27px;
   background-color: black;
-  font: caption;
   background: linear-gradient(to top, #303030 , #6A6A6A 97% , #CBCBCB 99%);
 }
+
 .blackbutton:hover {
   /*color: #F4A460;
   text-decoration: underline;*/
   background-color: #353535;
   border: 1px solid #353535;
   background: linear-gradient(to top, #353535 , #7A7A7A 97% , #DBDBDB 99%);
+}
+
+.dangerbutton {
+border: 1px solid #FC5555;
+background: linear-gradient(to top, #FC5555 , #FD8C8C 97% , #FFDCDC 99%);
+}
+
+.successbutton {
+border: 1px solid #329739;
+background: linear-gradient(to top, #329739 , #62BC68 97% , #DBF7DD 99%);
+}
