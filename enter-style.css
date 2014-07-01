@@ -1,0 +1,40 @@
+body {
+  background:#222222;
+}
+
+.back {
+  margin: 19px 275px  ;
+  width: 800px;
+  height: 600px;
+  background:  url(gr.jpg) ;
+  position: absolute;
+}
+
+.form {
+  position: absolute;
+  padding: 20px;
+  background-color: #FFFFFF;
+  width: 410px;
+  height: 373px;
+  border-radius: 24px;
+  /*left: 50%;
+  top: 50%;
+  margin-left: -150px;
+  margin-top: -100px;*/
+  /*position: fixed;*/
+  margin: auto;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.login {
+  border-bottom: 1px solid #9DA7B4;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background: url('imgs/glyphicons-halflings.png') no-repeat -169px -1px;
+  /*width: 12px;
+  height: 13px;*/
+}
