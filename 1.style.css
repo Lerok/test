@@ -1,0 +1,51 @@
+.button {
+    width: 120px;
+    height: 45px;
+    border: 1px solid black;
+    border-radius: 4px;
+    font: caption;
+    color: white;
+}
+
+.greybutton {
+    color: #555555;
+    text-shadow: 0 2px 2px white;
+    border: 1px solid #BBBBBB;
+    background: linear-gradient(to bottom, #FFFFFF, #F6F6F6 20%, #EDEDED 40% , #E3E3E3 60% , #D7D7D7 93% , #BBBBBB 98% , #777777 99%)
+}
+
+.greybutton:hover {
+    background: #FAFAFA;
+    border: 1px solid #EAEAEA;
+    color: #999999;
+}
+
+.redbutton {
+    border: 1px solid #C43C35;
+    background: linear-gradient(to bottom, #E2A09C , #CF6F6A 4% , #CC5F59 25% , #CA4F49 60% , /*#C34841 75% ,*/ #C1423B 97% )
+}
+
+.redbutton:hover {
+  background: #C43C35;
+}
+
+.greenbutton {
+    background: green;
+    border: 1px solid #57A957; 
+    background: linear-gradient( to bottom, #ADD5AD , #7AB97A 4% , #66AC66 55% , #60AA60 70% , #57A957 95% )
+}
+
+.greenbutton:hover {
+  background: #57A957;
+}
+
+.bluebutton {
+    border: 1px solid #269CE9;
+    background: linear-gradient( to bottom, #94CCF2, #57B2ED 30% ,  #40A5E7 50% , #319DE2 70% , #2A9DE9 95% )
+}
+
+.bluebutton:hover {
+    background: #269CE9;
+}
+
+
