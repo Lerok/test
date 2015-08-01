@@ -6,6 +6,11 @@ body {
   background:#222222;
 }
 
+input[type="text"], input[type="password"], input[type="email"]{ 
+  border: none;
+  border-bottom: 1px solid #9DA7B4;
+}
+
 .back {
   margin: 19px 275px  ;
   width: 800px;
@@ -34,6 +39,9 @@ body {
 }
 
 .login {
+  width: 400px;
+  font-size: 15px;
+  padding: 15px 0;
   border-bottom: 1px solid #9DA7B4;
   border-top: none;
   border-left: none;
@@ -41,6 +49,17 @@ body {
   background: url('imgs/glyphicons-halflings.png') no-repeat -169px -1px;
   /*width: 12px;
   height: 13px;*/
+}
+
+.mail {
+  width: 400px;
+  font-size: 15px;
+  padding: 15px 0;
+}
+
+.password {
+  font-size: 15px;
+  padding: 15px 0;
 }
 
 .button {
