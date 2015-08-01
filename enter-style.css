@@ -38,3 +38,16 @@ body {
   /*width: 12px;
   height: 13px;*/
 }
+
+.button {
+  text-decoration: none;
+  height: 50px;
+  width: 400px;
+  border-radius: 4px;
+  background: #9DA7B4;
+  color: white;
+}
+
+.dropbox {
+  
+}
