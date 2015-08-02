@@ -4,19 +4,19 @@
 
 body {
   background:#222222;
+  margin: 0;
+  padding: 0;
+  background:  url(gr.jpg) ;
+  background: url(gr.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 input[type="text"], input[type="password"], input[type="email"]{ 
   border: none;
   border-bottom: 1px solid #C4C8CF;
-}
-
-.back {
-  margin: 19px 275px  ;
-  width: 800px;
-  height: 600px;
-  background:  url(gr.jpg) ;
-  position: absolute;
 }
 
 .form {
