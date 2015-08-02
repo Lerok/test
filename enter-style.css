@@ -1,3 +1,11 @@
+ @font-face {
+  font-family: 'FontAwesome';
+  src: url('https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/fonts/fontawesome-webfont.eot?v=4.4.0');
+  src: url('https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/fonts/fontawesome-webfont.eot?#iefix&v=4.4.0') format('embedded-opentype'), url('https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/fonts/fontawesome-webfont.woff2?v=4.4.0') format('woff2'), url('https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/fonts/fontawesome-webfont.woff?v=4.4.0') format('woff'), url('https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/fonts/fontawesome-webfont.ttf?v=4.4.0') format('truetype'), url('https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/fonts/fontawesome-webfont.svg?v=4.4.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
 * {
   font-family: Helvetica, sans-serif, Arial;
 }
@@ -93,7 +101,7 @@ input[type="text"], input[type="password"], input[type="email"]{
   margin-top: 30px;
   background: #5A95E6; 
   position: relative;
-  font: FontAwesome;
+  
 }
 
 .dropbox:hover {
@@ -109,11 +117,12 @@ input[type="text"], input[type="password"], input[type="email"]{
   position: absolute;
   top: 0;
   left: 0;
-  content: "Dbox";
+  content: "\f16b";
   background: #5186CF;
   width: 43px;
   padding: 12px 0;
   border-radius: 2px 0 0 2px;
+  font-family: FontAwesome;
 }
 
 .dropbox:hover:before {
