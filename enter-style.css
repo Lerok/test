@@ -93,6 +93,7 @@ input[type="text"], input[type="password"], input[type="email"]{
   margin-top: 30px;
   background: #5A95E6; 
   position: relative;
+  font: FontAwesome;
 }
 
 .dropbox:hover {
@@ -108,7 +109,7 @@ input[type="text"], input[type="password"], input[type="email"]{
   position: absolute;
   top: 0;
   left: 0;
-  content: "12345 ";
+  content: "Dbox";
   background: #5186CF;
   width: 43px;
   padding: 12px 0;
