@@ -6,8 +6,7 @@ body {
   background:#222222;
   margin: 0;
   padding: 0;
-  background:  url(gr.jpg) ;
-  background: url(gr.jpg) no-repeat center center fixed; 
+  background: url("gr.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -81,7 +80,25 @@ input[type="text"], input[type="password"], input[type="email"]{
   margin-bottom: 30px;
 }
 
+.submit:hover {
+  background: #A9B4C3;
+}
+
+.submit:active {
+  background: #8A939E;
+}
+
 .dropbox {
   margin-top: 30px;
   background: #5A95E6; 
 }
+
+.dropbox:hover {
+  background: #70A7F4;
+}
+
+.dropbox:active {
+  background: #3670C2;
+}
+
+
