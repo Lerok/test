@@ -92,6 +92,7 @@ input[type="text"], input[type="password"], input[type="email"]{
 .dropbox {
   margin-top: 30px;
   background: #5A95E6; 
+  position: relative;
 }
 
 .dropbox:hover {
@@ -102,4 +103,23 @@ input[type="text"], input[type="password"], input[type="email"]{
   background: #3670C2;
 }
 
+.dropbox:before {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "12345 ";
+  background: #5186CF;
+  width: 43px;
+  padding: 12px 0;
+  border-radius: 2px 0 0 2px;
+}
+
+.dropbox:hover:before {
+  background: #689BE2;
+}
+
+.dropbox:active:before {
+  background: #3465AA;
+}
 
