@@ -49,12 +49,26 @@ input[type="email"]{
   width: 370px;
   font-size: 15px;
   padding: 12px 0;
+  margin-left: 0; 
   border-bottom: 1px solid #9DA7B4;
   border-top: none;
   border-left: none;
   border-right: none;
   background: url('imgs/glyphicons-halflings.png') no-repeat -169px -1px;
 }
+
+.login:before {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "\f007";
+  /*background: #5186CF;*/
+  /*width: 43px;*/
+  padding: 12px 0;
+  /*border-radius: 2px 0 0 2px;*/
+  font-family: FontAwesome;
+ }
 
 .mail {
   width: 370px;
@@ -96,6 +110,24 @@ input[type="email"]{
 
 .submit:active {
   background: #8A939E;
+}
+
+.hr {
+  border: none;
+  border-bottom: 1px solid #C4C8CF;
+  background-color: white;
+  height: 11px;
+}
+
+hr:before {
+  content: "or";
+  top: 0;
+  margin: 0 170px;
+  font-size: 15px;
+  border: 1px solid #9DA7B4;
+  border-radius: 15px;
+  padding: 4px 8px;
+  background: white;
 }
 
 .dropbox {
