@@ -46,13 +46,13 @@ input[type="email"]{
 }
 
 .login {
-  width: 347px;
+  width: 314px;
   font-size: 15px;
   padding: 12px 10px;
-  margin-left: 50px;
+  margin-left: 30px;
   border: none; 
   border-bottom: 1px solid #9DA7B4;
-  background: url('imgs/glyphicons-halflings.png') no-repeat -169px -1px;
+  /*background: url('imgs/glyphicons-halflings.png') no-repeat -169px -1px;*/
 }
 
 .plogin {
@@ -60,19 +60,26 @@ input[type="email"]{
 }
 
 
-.plogin:before {
+/*.plogin:before {
   display: inline;
   position: absolute;
   margin: 11px 23px;
   content: "\f007";
   color: #9DA7B4;
-  /*background: #5186CF;*/
-  /*width: 43px;*/
   padding: 8px;
-  /*margin-top: 11px;*/
   border-bottom: 1px solid #C4C8CF;
   font-family: FontAwesome;
- }
+ }*/
+ 
+.user {
+  position: absolute;
+  border-bottom: 1px solid #C4C8CF;
+  color: #C4C8CF;
+  font-size: 15px;
+  padding: 14px;
+  width: 13px;
+  left: 49px; 
+}
 
 .mail {
   width: 370px;
